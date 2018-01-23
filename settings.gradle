@@ -1,0 +1,1 @@
+include ':app', ':Chap2-2', ':Calculator', ':Chap2-ToastExample', ':Chap2-FragmentEX', ':Chap2-FragmentEX2', ':Chap2-2Exam', ':Chap2-2Exam2', ':Chap2-3WebViewEX', ':Chap2-3 TouchEX', ':Chap2-3AnimationEX', ':Chap2-3PageSlidingEX', ':Chap2-3ViewFlipperEX', ':Chap2-3ProgressBarEX', ':Chap2-3MenuEX', ':Chap2-3TabEX', ':Chap2-3Exam', ':Chap2-3Exam2'
