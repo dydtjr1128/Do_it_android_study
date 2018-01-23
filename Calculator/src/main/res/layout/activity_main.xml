@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FF000000"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:stretchColumns="*">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="145dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="His"
+            android:textColor="#FFFFFFFF"
+            android:textSize="20dp"
+            android:textStyle="normal|italic" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#565150"></View>
+        <EditText
+            android:id="@+id/editText01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF000000"
+            android:gravity="right|center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="0"
+            android:textColor="#FFFFFFFF"
+            android:textSize="60dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#565150"></View>
+
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="match_parent"
+        android:background="#FF000000"
+        android:gravity="right|center_vertical"
+        android:inputType="text"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColorHint="#606060"
+        android:textColor="#FFFFFFFF"
+        android:textSize="30dp"
+        android:layout_height="75dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#565150"></View>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="AC"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="CE"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="←"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="÷"
+            android:textColor="#FFFFFFFF"
+            android:typeface="monospace"
+            android:layout_height="90dp"
+            android:textSize="65dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="7"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="8"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="9"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="×"
+            android:textColor="#FFFFFFFF"
+            android:typeface="monospace"
+            android:layout_height="90dp"
+            android:textSize="65dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="4"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="5"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="6"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="-"
+            android:textColor="#FFFFFFFF"
+            android:typeface="monospace"
+            android:layout_height="90dp"
+            android:textSize="65dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="1"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="2"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="3"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="+"
+            android:textColor="#FFFFFFFF"
+            android:typeface="monospace"
+            android:layout_height="90dp"
+            android:textSize="65dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="X"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="0"
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="."
+            android:textColor="#FFFFFFFF"
+            android:textSize="45dp"
+            android:typeface="monospace"
+            android:layout_height="90dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginTop="-5dp"
+            android:background="#FF000000"
+            android:onClick="onButtonClicked"
+            android:text="="
+            android:textColor="#FFFFFFFF"
+            android:typeface="monospace"
+            android:layout_height="90dp"
+            android:textSize="65dp" />
+    </TableRow>
+
+</TableLayout>
