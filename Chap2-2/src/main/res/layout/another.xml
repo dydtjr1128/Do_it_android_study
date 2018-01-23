@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="org.androidtown.myapplication.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_gravity="top"
+        android:textSize="30dp"
+        android:text="버튼을 누르면 원래 액티비티로 돌아갑니다."/>
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GO TO ACTIVITY"/>
+    <TextView
+        android:id="@+id/textView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

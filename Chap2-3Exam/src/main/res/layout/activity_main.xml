@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="이  름"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/editText01"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="나  이"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/editText02"
+                android:layout_marginLeft="30dp"
+                android:layout_width="200dp"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="생년월일"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/button01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:onClick="button1Clicked"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="저  장"
+        android:onClick="button1Clicked"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

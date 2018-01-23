@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="org.androidtown.myapplication.MainActivity">
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:text="고객 관리"
+        android:textSize="30dp"
+        android:onClick="button1Clicked" />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:text="매출 관리"
+        android:textSize="30dp"
+        android:onClick="button1Clicked"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:text="상품 관리"
+        android:textSize="30dp"
+        android:onClick="button1Clicked"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        android:text="이전으로"
+        android:textSize="30dp"
+        android:onClick="button1Clicked"/>
+
+</LinearLayout>
